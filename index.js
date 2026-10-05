@@ -1,4 +1,4 @@
-import fs from 'fs';
+﻿import fs from 'fs';
 import path from 'path';
 
 const RECIPES = [
@@ -7,28 +7,28 @@ const RECIPES = [
     region: "Szechuan, China",
     summary: "Knackige Erdnüsse, zartes Hähnchenfleisch und aromatische Szechuan-Chilis in einer perfekt ausbalancierten süß-sauren Sauce.",
     tip: "Echter Chinkiang-Reisessig und fermentierte süße Bohnensauce machen den Unterschied.",
-    url: "https://asiakochen.de"
+    url: "https://www.asiakochen.de"
   },
   {
     title: "Authentisches Mapo Tofu (麻婆豆腐)",
     region: "Szechuan, China",
     summary: "Seidentofu in einer feurig-würzigen Sauce mit Rinderhack, Pixian Doubanjiang und dem prickelnden Aroma von frisch gemahlenem Szechuanpfeffer.",
     tip: "Den Tofu vor dem Braten kurz in Salzwasser blanchieren, damit er im Wok nicht zerfällt.",
-    url: "https://asiakochen.de"
+    url: "https://www.asiakochen.de"
   },
   {
     title: "Klassisches Beef & Broccoli Wokgericht",
     region: "Kantonesische Küche",
     summary: "Zart mariniertes Rindfleisch und knackig blanchierter Brokkoli, geschwenkt in einer reichhaltigen Austern-Knoblauch-Sauce mit echtem Wok Hei Aroma.",
     tip: "Velveting-Methode anwenden: Fleisch mit Stärke, Sojasauce und Eiweiß für butterweiche Textur einlegen.",
-    url: "https://asiakochen.de"
+    url: "https://www.asiakochen.de"
   },
   {
     title: "Koreanisches Bibimbap mit Gochujang",
     region: "Korea",
     summary: "Bunte Gemüseschalen, Spiegelei und zartes Rindfleisch auf gedämpftem Reis, serviert mit einer reichhaltigen, fermentierten Gochujang-Sauce.",
     tip: "Gochujang mit etwas geröstetem Sesamöl, Knoblauch und Honig verrühren.",
-    url: "https://asiakochen.de"
+    url: "https://www.asiakochen.de"
   }
 ];
 
@@ -46,7 +46,7 @@ async function run() {
 > ${pick.summary}
 
 * **💡 Meister-Tipp:** ${pick.tip}
-* 📖 **Vollständiges Rezept & Kochanleitung:** [Rezept auf Asiakochen.de ansehen](${pick.url}?utm_source=github_action&utm_medium=readme&utm_campaign=asia_recipe_daily) · *Bereitgestellt von [Asiakochen.de](https://asiakochen.de)*
+* 📖 **Vollständiges Rezept & Kochanleitung:** [Rezept auf Asiakochen.de ansehen](${pick.url}?utm_source=github_action&utm_medium=readme&utm_campaign=asia_recipe_daily) · *Bereitgestellt von [Asiakochen.de](https://www.asiakochen.de)*
 `;
 
     const fullPath = path.resolve(process.cwd(), readmePath);
@@ -73,3 +73,4 @@ async function run() {
 }
 
 run();
+

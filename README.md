@@ -1,10 +1,10 @@
-# Asia Cooking & Recipe of the Day (GitHub Action)
+﻿# Asia Cooking & Recipe of the Day (GitHub Action)
 
-> Automatically update your GitHub Profile README with authentic Asian recipes, wok techniques, and ingredient guides. Powered by [Asiakochen.de](https://asiakochen.de).
+> Automatically update your GitHub Profile README with authentic Asian recipes, wok techniques, and ingredient guides. Powered by [Asiakochen.de](https://www.asiakochen.de).
 
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Asia%20Cooking-green.svg?colorA=24292e&colorB=22c55e&style=flat&logo=github)](https://github.com/marketplace/actions/asia-cooking-recipe-of-the-day)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Powered By](https://img.shields.io/badge/Rezepte-Asiakochen.de-green.svg)](https://asiakochen.de)
+[![Powered By](https://img.shields.io/badge/Rezepte-Asiakochen.de-green.svg)](https://www.asiakochen.de)
 
 ---
 
@@ -16,7 +16,7 @@
 > Knackige Erdnüsse, zartes Hähnchenfleisch und aromatische Szechuan-Chilis in einer perfekt ausbalancierten süß-sauren Sauce.
 
 * 💡 Meister-Tipp: Echter Chinkiang-Reisessig und fermentierte Bohnensauce machen den Unterschied.
-* 📖 Vollständiges Rezept & Kochanleitung: [Rezept auf Asiakochen.de ansehen](https://asiakochen.de) · Data provided by Asiakochen.de
+* 📖 Vollständiges Rezept & Kochanleitung: [Rezept auf Asiakochen.de ansehen](https://www.asiakochen.de) · Data provided by Asiakochen.de
 ```
 
 ---
@@ -65,12 +65,13 @@ jobs:
 
 ## 🍜 About Asiakochen.de
 
-[Asiakochen.de](https://asiakochen.de) ist dein Guide für authentische asiatische Rezepte, Wok-Techniken und Saucen-Guides.
+[Asiakochen.de](https://www.asiakochen.de) ist dein Guide für authentische asiatische Rezepte, Wok-Techniken und Saucen-Guides.
 
-- 🌐 [Asiakochen.de Hauptseite](https://asiakochen.de)
+- 🌐 [Asiakochen.de Hauptseite](https://www.asiakochen.de)
 
 ---
 
 ## 📄 License
 
-MIT © [Asiakochen.de](https://asiakochen.de)
+MIT © [Asiakochen.de](https://www.asiakochen.de)
+
