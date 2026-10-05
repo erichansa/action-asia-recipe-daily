@@ -1,0 +1,9 @@
+{
+  "name": "action-asia-recipe-daily",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GitHub Action to inject daily authentic Asian recipes into README.",
+  "main": "index.js",
+  "author": "Asiakochen.de",
+  "license": "MIT"
+}
